@@ -49,7 +49,7 @@ At **Layer 4**, protocols determine how reliably your data is delivered.
 
 ---
 
-## 🌍 IP Addressing: Public vs. Private
+## IP Addressing: Public vs. Private
 
 | Feature | Private IP Address | Public IP Address |
 | :--- | :--- | :--- |
@@ -60,7 +60,7 @@ At **Layer 4**, protocols determine how reliably your data is delivered.
 
 ---
 
-## 🔢 IPv4 Classes & CIDR
+## IPv4 Classes & CIDR
 IPv4 addresses are 32-bit numbers categorized into classes based on the first octet.
 
 ### IP Address Classes
@@ -101,7 +101,6 @@ IPv4 addresses are 32-bit numbers categorized into classes based on the first oc
 DNS translates human-readable names like `google.com` into IP addresses. It works through a hierarchy:
 
 
-
 1.  **Resolver:** Your computer asks the ISP's server for an IP.
 2.  **Root Server:** Points the resolver toward the TLD (Top Level Domain) like `.com`.
 3.  **TLD Server:** Points toward the Authoritative Name Server.
@@ -120,7 +119,7 @@ DNS translates human-readable names like `google.com` into IP addresses. It work
 
 ---
 
-## 🛠️ Essential DevOps Networking Tools
+##  Essential DevOps Networking Tools
 
 | Command | Purpose |
 | :--- | :--- |
