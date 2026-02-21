@@ -36,4 +36,6 @@ This repository serves as a central hub for my DevOps learning resources and che
 
 ### Git & GitHub
 
+**[Short Notes](git-and-github/git_and_github.md)**
+
 **[Git Cheatsheet](git-and-github/cheatsheet.md)**
