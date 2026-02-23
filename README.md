@@ -46,4 +46,6 @@ This repository serves as a central hub for my DevOps learning resources and che
 
 2. **[Docker Container](docker/2.docker_containers.md)**
 
+3. **[Docker Images](docker/3.docker_images.md)**
+
 **[Docker Cheatsheet](docker/cheatsheet.md)**
