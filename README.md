@@ -48,4 +48,6 @@ This repository serves as a central hub for my DevOps learning resources and che
 
 3. **[Docker Images](docker/3.docker_images.md)**
 
+4. **[Docker Volumes](docker/4.docker_volumes.md)**
+
 **[Docker Cheatsheet](docker/cheatsheet.md)**
