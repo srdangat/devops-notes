@@ -52,4 +52,6 @@ This repository serves as a central hub for my DevOps learning resources and che
 
 5. **[Docker Network](docker/5.docker_networks.md)**
 
+6. **[Docker Compose](docker/6.docker_compose.md)**
+
    **[Docker Cheatsheet](docker/cheatsheet.md)**

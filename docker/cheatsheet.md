@@ -123,3 +123,62 @@
 | Remove all images | `docker rmi $(docker images -q)` |
 | Inspect image | `docker image inspect image_id` |
 | Push image to registry | `docker push myrepo/my-app:v1.0` |
+
+
+---
+
+
+## Docker Volumes
+
+| Task | Command |
+|------|----------|
+| List volumes | `docker volume ls` |
+| Create volume | `docker volume create my-volume` |
+| Inspect volume | `docker volume inspect my-volume` |
+| Remove volume | `docker volume rm my-volume` |
+| Remove unused volumes | `docker volume prune` |
+| Remove all unused volumes | `docker volume prune -a` |
+
+---
+
+## Docker Networking
+
+### Network Management
+
+| Task | Command |
+|------|----------|
+| List networks | `docker network ls` |
+| Create network | `docker network create my-network` |
+| Create bridge network | `docker network create --driver bridge my-network` |
+| Inspect network | `docker network inspect my-network` |
+| Remove network | `docker network rm my-network` |
+| Remove unused networks | `docker network prune` |
+
+---
+
+### Connect Containers to Network
+
+| Task | Command |
+|------|----------|
+| Run container on network | `docker run --network my-network nginx` |
+
+
+---
+
+
+## Docker Compose
+
+| Task | Command |
+|------|----------|
+| Start services | `docker compose up` |
+| Start in detached mode | `docker compose up -d` |
+| Stop services | `docker compose stop` |
+| Remove containers & networks | `docker compose down` |
+| Rebuild images | `docker compose up --build` |
+| List running services | `docker compose ps` |
+| View logs (all services) | `docker compose logs` |
+| View logs (specific service) | `docker compose logs service_name` |
+| Restart services | `docker compose restart` |
+
+
+---
