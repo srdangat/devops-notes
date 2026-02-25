@@ -30,14 +30,14 @@ This repository serves as a central hub for my DevOps learning resources and che
 
 ### Networking
 
-**[Networking Fundamentals](networking/networking.md)**
+ **[Networking Fundamentals](networking/networking.md)**
 
 
 ### Git & GitHub
 
-**[Short Notes](git-and-github/git_and_github.md)**
+1. **[Short Notes](git-and-github/git_and_github.md)**
 
-**[Git Cheatsheet](git-and-github/cheatsheet.md)**
+2. **[Git Cheatsheet](git-and-github/cheatsheet.md)**
 
 
 ### Docker
@@ -50,4 +50,6 @@ This repository serves as a central hub for my DevOps learning resources and che
 
 4. **[Docker Volumes](docker/4.docker_volumes.md)**
 
-**[Docker Cheatsheet](docker/cheatsheet.md)**
+5. **[Docker Network](docker/5.docker_networks.md)**
+
+   **[Docker Cheatsheet](docker/cheatsheet.md)**
