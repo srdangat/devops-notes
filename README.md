@@ -24,7 +24,7 @@ This repository serves as a central hub for my DevOps learning resources and che
 
 ### Networking
 
- **[Networking Fundamentals](networking/networking.md)**
+1. **[Networking Fundamentals](networking/networking.md)**
 
 
 ### Git & GitHub
@@ -54,4 +54,9 @@ This repository serves as a central hub for my DevOps learning resources and che
 ### YAML Basics
 
 
-**[YAML Basics](YAML/yaml.md)**
+1. **[YAML Basics](YAML/yaml.md)**
+
+
+### CICD Basics
+
+1. **[CICD Basics](CICD/cicd_basic.md)**
