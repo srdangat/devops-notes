@@ -51,6 +51,7 @@ This repository serves as a central hub for my DevOps learning resources and che
 7. **[Docker Cheatsheet](docker/cheatsheet.md)**
 
 
-## YAML Basics
+### YAML Basics
+
 
 **[YAML Basics](YAML/yaml.md)**
