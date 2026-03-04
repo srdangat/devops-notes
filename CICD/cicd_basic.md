@@ -59,6 +59,24 @@ For a small team (e.g., 5 developers), safe manual deployment is typically limit
 ![alt text](image-2.png)
 
 
+## CI/CD Workflow
+
+1. **Code Commit**: Developers commit code changes to the version control system (e.g., Git).
+2. **Continuous Integration (CI)**: The CI server detects code changes and triggers the build process. The code is built and packaged into deployable artifacts.
+3. **Automated Testing**: Automated tests (unit, integration, functional) validate the code to ensure it meets quality standards and does not introduce new issues.
+4. **Artifact Management**: Successful builds are stored in an artifact repository. Artifacts are versioned and managed for deployment.
+5. **Deployment**: The application is deployed to a staging environment for additional testing (UAT, performance testing). Once staging tests pass, the application is deployed to production.
+6. **Monitoring and Logging**: Monitor application performance, availability, and health in production. Collect and analyze logs for troubleshooting and insights.
+7. **Feedback and Alerts**: Track issues and set up alerts for any problems during or after deployment. Gather feedback from monitoring and users.
+8. **Rollback**: If a deployment causes issues, revert to a previous stable version to address critical problems promptly.
+9. **Continuous Improvement**: Conduct retrospectives to review the CI/CD process and implement improvements based on feedback and lessons learned.
+
+
+
+![alt text](image-3.png)
+
+
+
 ## CI/CD Tools
 
 | Category | Tools |
