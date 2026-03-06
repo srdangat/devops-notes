@@ -66,3 +66,7 @@ This repository serves as a central hub for my DevOps learning resources and che
 1. **[Basics](github-actions/basics.md)**
 
 2. **[Triggers](github-actions/2.triggers.md)**
+
+3. **[Jobs-Steps](github-actions/3.jobs-steps.md)**
+
+4. **[Actions](github-actions/4.actions.md)**
