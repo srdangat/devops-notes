@@ -70,3 +70,13 @@ This repository serves as a central hub for my DevOps learning resources and che
 3. **[Jobs-Steps](github-actions/3.jobs-steps.md)**
 
 4. **[Actions](github-actions/4.actions.md)**
+
+5. **[Env-Secrets](github-actions/5.env-secrets.md)**
+
+6. **[Expression-Contexts](github-actions/6.expressions-contexts.md)**
+
+7. **[Artifacts-Caching](github-actions/7.artifacts-caching.md)**
+
+8. **[Matrix-Strategy](github-actions/8.matrix-strategy)**
+
+9. **[Cheatsheet.md](github-actions/cheatsheet)**
