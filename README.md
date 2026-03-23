@@ -91,3 +91,5 @@ This repository serves as a central hub for my DevOps learning resources and che
 3. **[NameSpace-Deployment](Kubernetes/namespaces-deployments.md)**
 
 4. **[Services](Kubernetes/services.md)**
+
+5. **[ConfigMap-Secrets](Kubernetes/configmaps-secrets.md)**
