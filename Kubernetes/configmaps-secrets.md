@@ -110,11 +110,6 @@ volumeMounts:
 | Volume mount | Yes — after ~30–60 seconds |
 | Environment variable | No — requires Pod restart |
 
-### Live update example
-```bash
-kubectl patch configmap live-config --type merge -p '{"data":{"message":"world"}}'
-```
-Volume-mounted files reflect the change automatically; env vars do not.
 
 ---
 
