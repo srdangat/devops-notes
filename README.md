@@ -84,12 +84,14 @@ This repository serves as a central hub for my DevOps learning resources and che
 
 ### Kuberenetes
 
-1. **[Architecture](Kubernetes/architecture)**
+1. **[K8s Architecture](Kubernetes/architecture)**
 
-2. **[Pod](Kubernetes/pods.md)**
+2. **[K8s Pod](Kubernetes/pods.md)**
 
-3. **[NameSpace-Deployment](Kubernetes/namespaces-deployments.md)**
+3. **[K8s NameSpace-Deployment](Kubernetes/namespaces-deployments.md)**
 
-4. **[Services](Kubernetes/services.md)**
+4. **[K8s Services](Kubernetes/services.md)**
 
-5. **[ConfigMap-Secrets](Kubernetes/configmaps-secrets.md)**
+5. **[K8s ConfigMap-Secrets](Kubernetes/configmaps-secrets.md)**
+
+6. **[K8s Persistent-Volumes](Kubernetes/persistent-volumes.md)**
