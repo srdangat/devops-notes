@@ -37,6 +37,23 @@ desiredReplicas = ceil(currentReplicas × (currentUsage / targetUsage))
 - **Pods must have `resources.requests.cpu` set** — HPA uses this to calculate utilization percentages
 - Without CPU requests, HPA cannot compute utilization → most common setup mistake
 
+- `Install metrics-server:`
+
+```bash
+kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+```
+
+`Kind uses self-signed certs, so metrics-server can't verify kubelet TLS — patch it:`
+```bash
+kubectl patch deployment metrics-server -n kube-system \
+  --type='json' \
+  -p='[{"op":"add","path":"/spec/template/spec/containers/0/args/-","value":"--kubelet-insecure-tls"}]'
+```
+`Wait for it to be ready:`
+```bash
+kubectl rollout status deployment/metrics-server -n kube-system --timeout=120s
+```
+
 ---
 
 ## autoscaling/v1 vs autoscaling/v2
