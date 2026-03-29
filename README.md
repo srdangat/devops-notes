@@ -100,4 +100,9 @@ This repository serves as a central hub for my DevOps learning resources and che
 
 8. **[K8s Hpa](Kubernetes/metrics-hpa.md)**
 
-9. **[K8s Resources-Probes](resources-probes.md)**
+9. **[K8s Resources-Probes](Kubernetes/resources-probes.md)**
+
+
+### Helm
+
+**[Helm](Helm/helm.md)**
