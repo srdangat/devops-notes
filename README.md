@@ -84,7 +84,7 @@ This repository serves as a central hub for my DevOps learning resources and che
 
 ### Kuberenetes
 
-1. **[K8s Architecture](Kubernetes/architecture)**
+1. **[K8s Architecture](Kubernetes/architecture.md)**
 
 2. **[K8s Pod](Kubernetes/pods.md)**
 
@@ -107,3 +107,7 @@ This repository serves as a central hub for my DevOps learning resources and che
 ### Helm
 
 **[Helm](Helm/helm.md)**
+
+### Terraform
+
+1. **[Terraform Intro](Terraform/terraform-intro.md)**
