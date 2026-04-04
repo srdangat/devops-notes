@@ -119,3 +119,5 @@ This repository serves as a central hub for my DevOps learning resources and che
 4. **[Terraform State Management](Terraform/terraform-state-management.md)**
 
 5. **[Terraform Modules](Terraform/terraform-modules.md)**
+
+6. **[Terraform Cheatsheet](Terraform/terraform-cheatsheet.md)**
